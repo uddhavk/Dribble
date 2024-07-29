@@ -152,7 +152,7 @@ html,body{
 }
 
 .design p{
-    margin-top: 8vw;
+    margin-top: 6vw;
     padding: .8vw 1.2vw;
     background-color: #ffd487;
     border-radius: 25px;
@@ -184,11 +184,273 @@ html,body{
     background-color: black;
     color: white;
     cursor: pointer;
+    margin-bottom: 2vw;
+    margin-top: .5vw;
 }
 
 .start:hover{
     background-color: #1f1d3e;
 }
+
+
+
+.products{
+    height: 55vh;
+    width: 100%;
+    /* background-color: lightpink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper{
+    height: 95%;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+
+.swiper-wrapper{
+    height: 100%;
+    width: 100%;
+    /* background-color: cornflowerblue; */
+}
+
+.card{
+    height: 100%;
+    width: 19% !important;
+    background-color: crimson;
+     background-image: url(https://cdn.dribbble.com/uploads/47170/original/cd3266dde4f00a5d6a509c7375ddaecd.png?1685644840&format=webp&resize=400x498&vertical=center);
+     background-position: center;
+     background-size: cover;
+     border-radius: 10px;
+     display: flex !important;
+     justify-content: flex-end;
+     flex-direction: column;
+}
+
+.up-card h4{
+    margin: .2vw 0 0 1vw;
+    font-size: 1vw;
+    color: white;
+    font-weight: 400;
+    
+}
+
+.paragraph{
+    display: flex;
+}
+
+.paragraph p{
+    color: white;
+    font-size: 1vw;
+    margin: .5vw .5vw .5vw 0;
+    padding: .2vw .7vw;
+    background-color:  transparent;
+    border-radius: 20px;
+    /* border: none; */
+    border: .2px solid #ffff;
+}
+
+.card2{
+    background-image: url(https://i.pinimg.com/474x/81/30/02/8130022a6eb9d6d2c8978b805e188a8d.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+.card3{
+    background-image: url(https://i.pinimg.com/474x/d2/0a/07/d20a0742e4fc1831d19d1f45d625939b.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+.card4{
+    background-image: url(https://i.pinimg.com/474x/b3/f8/a9/b3f8a9ffb414e67cc998f6a5ae244dcd.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+.card5{
+    background-image: url(https://i.pinimg.com/474x/31/b0/e8/31b0e894fea18d9f8113a0475c565ada.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+
+.card6{
+    background-image: url(https://i.pinimg.com/474x/ed/c8/2c/edc82cb163f9adb1a0dcc37f1d48f0d9.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+.card7{
+    background-image: url(https://i.pinimg.com/474x/1f/8f/db/1f8fdb7a28650d64e6b37deae9073e92.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+.card8{
+    background-image: url(https://i.pinimg.com/474x/c2/db/0e/c2db0eac6e783a936081bfe8dcd45806.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+.card9{
+    background-image: url(https://i.pinimg.com/474x/57/c1/4e/57c14e92d7a89b3e805df7f1ba077997.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+.card10{
+    background-image: url(https://i.pinimg.com/474x/44/06/0a/44060abd322aef05ee4d26444676fcf6.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+.card11{
+    background-image: url(https://i.pinimg.com/474x/e8/32/a2/e832a27d3a4cad7697dc5a4d32274d22.jpg);
+     background-position: center;
+     background-size: cover;
+}
+.card12{
+    background-image: url(https://i.pinimg.com/474x/bc/bc/32/bcbc326202b15bcc99285d183a239bc2.jpg);
+     background-position: center;
+     background-size: cover;
+}
+
+
+
+.explore h1{
+    margin-top: 1.8vw;
+    font-size: 3.5vw;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.3vw;
+}
+
+.img-container{
+    height: 50vh;
+    width: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 2vw;
+}
+
+.container-left{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(84, 215, 224); */
+}
+
+.container-mid{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(84, 156, 224); */
+}
+
+.container-right{
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(103, 84, 224); */
+}
+
+.container-top{
+    height: 85%;
+    width: 100%;
+    border-radius: 10px;
+    /* background-color: yellow; */
+    background-image: url(https://cdn.dribbble.com/userupload/15697966/file/still-330d0a702330d44b57b7624af6c0854d.png?resize=640x480&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-bottom{
+    height: 15%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    margin-top: 1vw;
+}
+
+.img-box{
+    height: 80%;
+    width: 10%;
+    /* background-color: violet; */
+    background-image: url(https://cdn.dribbble.com/users/11502486/avatars/small/a8456497e26e27118763af6fc5b5fbcc.png?1650726363);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-bottom p{
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+
+.text{
+    height: 100%;
+    width: fit-content;
+    margin-left: .8vw;
+    padding-top: .5vw;
+}
+
+.team{
+    height: 100%;
+    width: fit-content;
+    /* background-color: cornflowerblue; */
+    margin-left: .5vw; 
+    padding-top: .5vw;
+
+}
+
+.team p{
+    background-color: #cccccc;
+    padding: 0 .3vw;
+    border-radius: 3px;
+}
+
+.like{
+    height: 100%;
+    width: 14%;
+    /* background-color: deeppink; */
+    margin-left: 7vw;
+    padding-top: .5vw;
+    display: flex;
+}
+
+.like p{
+    padding-left: .3vw;
+}
+
+.views{
+    height: 100%;
+    width: 15%;
+    /* background-color: gold; */
+    padding-top: .5vw;
+    display: flex;
+}
+
+.views p{
+    padding-left: .3vw;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -295,7 +557,41 @@ html,body{
         padding: 4vw 3vw;
     }
 
+    .card{
+        width: 100% !important;
+    }
+
+    .swiper-wrapper{
+        width: 80% !important;
+    }
+
+    .up-card h4{
+        margin: 0 0 1vw 4vw;
+        font-size: 4vw;
+    }
+
+    .paragraph p{
+        font-size: 3vw;
+        margin: 2vw 0 3vw 4vw;
+    }
+     
+    .explore{
+        display: flex !important;
+        justify-content: center!important;
+    }
+    .explore h1{
+        margin-top: 4vw;
+        font-size: 9vw;
+        width: 90%;
+        line-height: 10vw;
+    }
+
+  
 }
+
+
+
+
 
 
 

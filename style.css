@@ -331,7 +331,7 @@ html,body{
     font-size: 3.5vw;
     font-weight: 500;
     text-align: center;
-    margin-bottom: 1.3vw;
+    margin-bottom: 2vw;
 }
 
 .img-container{
@@ -341,6 +341,7 @@ html,body{
     display: flex;
     justify-content: space-evenly;
     padding: 0 2vw;
+    margin-top: 2vw;
 }
 
 .container-left{
@@ -355,6 +356,7 @@ html,body{
     /* background-color: rgb(84, 156, 224); */
 }
 
+
 .container-right{
     height: 100%;
     width: 30%;
@@ -362,7 +364,7 @@ html,body{
 }
 
 .container-top{
-    height: 85%;
+    height: 83%;
     width: 100%;
     border-radius: 10px;
     /* background-color: yellow; */
@@ -372,7 +374,7 @@ html,body{
 }
 
 .container-bottom{
-    height: 15%;
+    height: 17%;
     width: 100%;
     /* background-color: red; */
     display: flex;
@@ -410,10 +412,17 @@ html,body{
 
 }
 
+.team p:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
 .team p{
     background-color: #cccccc;
     padding: 0 .3vw;
     border-radius: 3px;
+    color: white;
+    font-weight: 500;
 }
 
 .like{
@@ -423,6 +432,11 @@ html,body{
     margin-left: 7vw;
     padding-top: .5vw;
     display: flex;
+}
+
+.like i:hover{
+   cursor: pointer;
+   color: red;
 }
 
 .like p{
@@ -441,10 +455,403 @@ html,body{
     padding-left: .3vw;
 }
 
+.mid1{
+    background-image: url(https://cdn.dribbble.com/userupload/15813183/file/original-0a9c16182bcb3d79eb0dd7408d933f6c.jpg?crop=196x147-1400x1053&resize=640x480&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid2{
+    background-image: url(https://cdn.dribbble.com/users/13604/avatars/small/3dda8552f1fb7d68a27c34315336a72f.png?1685810951);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.right1{
+    background-image: url(https://cdn.dribbble.com/userupload/15813489/file/original-9784c3910b8ae034233dc1730426afbd.jpeg?resize=640x480&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right2{
+    background-image: url(https://cdn.dribbble.com/users/6454839/avatars/small/a615730b861d93eaebc6a7c1ec276489.jpg?1622535470);
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.left11{
+    background-image: url(https://cdn.dribbble.com/userupload/15816583/file/still-2d757b2fcf4076d340eb09dbbf3971e8.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left12{
+    background-image: url(https://cdn.dribbble.com/users/1154620/avatars/small/692333065852d7613835cccc455a0208.png?1718129658);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid11{
+    background-image: url(https://cdn.dribbble.com/userupload/15817645/file/original-e0c47682e5ee4a0e23af1fbd8d15b9ed.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid12{
+    background-image: url(https://cdn.dribbble.com/users/466659/avatars/small/faff973d070ece355f9ac1280b5aa1c9.png?1697203398);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right11{
+    background: url(https://cdn.dribbble.com/userupload/15783016/file/original-243b4adb8b4fdbb5c07299098934d068.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right12{
+    background: url(https://cdn.dribbble.com/users/59947/avatars/small/5ed2865a861fcd2bc9f9d9aff7600f8b.jpg?1574070463);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.left21{
+    background-image: url(https://cdn.dribbble.com/userupload/15822903/file/original-a9f34ec024dc93e70ecba7ac2c732611.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left22{
+    background-image: url(https://cdn.dribbble.com/users/52084/avatars/small/692992651656234d8bddb5823a090f98.jpg?1510596786);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid21{
+    background-image: url(https://cdn.dribbble.com/userupload/15823862/file/original-e971654a5db8a4b61ad03c95dd8036f3.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid22{
+    background-image: url(https://cdn.dribbble.com/users/60266/avatars/small/f94db808e77a52d9c53842d49c04dd9a.jpg?1704391053);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right21{
+    background: url(https://cdn.dribbble.com/userupload/15810118/file/original-9ff2ece338df717206993b97eda53715.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right22{
+    background: url(https://cdn.dribbble.com/users/1247975/avatars/small/7b9a3bf4fda1996d6e9536ade6d949b6.png?1576617778);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.left31{
+    background-image: url(https://cdn.dribbble.com/userupload/15822382/file/original-2267070781935320e76c72d4b7798924.jpg?crop=0x99-1001x850&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left32{
+    background-image: url(https://cdn.dribbble.com/users/44323/avatars/small/8d6cf98c085c2b93e185deb26b1771a5.jpg?1532120757);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid31{
+    background-image: url(https://cdn.dribbble.com/userupload/15819347/file/original-c6948e0fa45984d06587eb1853ed62ec.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid32{
+    background-image: url(https://cdn.dribbble.com/users/110372/avatars/small/8103347774c6a50096789a1fb02edf5d.png?1588232430);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right31{
+    background: url(https://cdn.dribbble.com/userupload/15719217/file/original-86e3fcc2d0cec3f6390dc2c35471cb0a.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right32{
+    background: url(https://cdn.dribbble.com/users/414899/avatars/small/fc12e2f8f542a52abd94590de3836499.png?1617890437);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.left41{
+    background-image: url(https://cdn.dribbble.com/userupload/15814902/file/original-ef7b22a69763bea05a9f36c51a137392.jpg?crop=1080x1022-3079x2521&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left42{
+    background-image: url(https://cdn.dribbble.com/users/81216/avatars/small/5687c734b55961ddf1f053fb19c27b8d.jpg?1441567267);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid41{
+    background-image: url(https://cdn.dribbble.com/userupload/15449277/file/original-5c172c18b033f22985dfe66e1065f217.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid42{
+    background-image: url(https://cdn.dribbble.com/users/36012/avatars/small/4aa2861319ba4582f2cdf49b5c4e01d0.png?1708641470);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right41{
+    background: url(https://cdn.dribbble.com/userupload/15813183/file/original-0a9c16182bcb3d79eb0dd7408d933f6c.jpg?crop=196x147-1400x1053&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right42{
+    background: url(https://cdn.dribbble.com/users/414899/avatars/small/fc12e2f8f542a52abd94590de3836499.png?1617890437);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
 
 
+.left51{
+    background-image: url(https://cdn.dribbble.com/userupload/15825776/file/original-e7606b905bcdddbcd24e2bcc842ee2e2.jpg?crop=597x0-3506x2182&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left52{
+    background-image: url(https://cdn.dribbble.com/users/642843/avatars/small/b4abb296072e77e7728098ae232a2513.jpg?1722285898);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid51{
+    background-image: url(https://cdn.dribbble.com/userupload/15822931/file/original-222cae1cff98524c91ab4773062a2f33.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid52{
+    background-image: url(https://cdn.dribbble.com/users/257123/avatars/small/557ad099b68debee3ce95d4adaa271d9.jpg?1706266927);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right51{
+    background: url(https://cdn.dribbble.com/userupload/15817769/file/original-781298cdef282291a128f909eaa68c3d.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right52{
+    background: url(https://cdn.dribbble.com/users/2554837/avatars/small/90522438af4feba5ef21fe54cc40fec4.png?1559397767);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
 
 
+.left61{
+    background-image: url(https://cdn.dribbble.com/userupload/15813509/file/original-4a364585d8c798c980f9a9c01c92e945.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left62{
+    background-image: url(https://cdn.dribbble.com/users/1057940/avatars/small/72c37f05348c039f280aa42765461db8.png?1705573110);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid61{
+    background-image: url(https://cdn.dribbble.com/userupload/15821121/file/original-adc4f64054d5460181ddc1b74dfaefdb.jpg?crop=497x0-4500x3002&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid62{
+    background-image: url(https://cdn.dribbble.com/users/15184955/avatars/small/436ba6bf09078258bbec562386e2b4ab.jpg?1708336644);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right61{
+    background: url(https://cdn.dribbble.com/userupload/15818222/file/original-d1407f03b8b5baa5bacab767313400e6.jpg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right62{
+    background: url(https://cdn.dribbble.com/users/1008875/avatars/small/0a1ed5e8cf9a5b66164b7acf40834aff.jpg?1694886369);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.left71{
+    background-image: url(https://cdn.dribbble.com/userupload/15817164/file/original-27ab2fdfe9e74ea26a0c00a0287ba148.jpeg?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.left72{
+    background-image: url(https://cdn.dribbble.com/users/903526/avatars/small/1eefc4d1f0a4cca22e677f6bd97d2270.jpeg?1695692879);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+.mid71{
+    background-image: url(https://cdn.dribbble.com/userupload/15817502/file/original-6797b39a4364a5e5420843c0cb38ae12.png?resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.mid72{
+    background-image: url(https://cdn.dribbble.com/users/458522/avatars/small/07b9b0f65924ef9cfffa9c7ad6b03fc7.png?1665138088);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+
+}
+
+.right71{
+    background: url(https://cdn.dribbble.com/userupload/15812839/file/original-b016bb52dc8d4d5bd026972b3f9f7ada.png?crop=0x0-2560x1920&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.right72{
+    background: url(https://cdn.dribbble.com/userupload/15812839/file/original-b016bb52dc8d4d5bd026972b3f9f7ada.png?crop=0x0-2560x1920&resize=450x338&vertical=center);
+    background-position: center;
+    background-size: cover;
+    height: 70%;
+    border-radius: 50%;
+}
+
+.img-last{
+    margin-bottom: 2vw;
+}
+
+       
+.browser{
+    height: 10vh;    
+    width: 100%;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw;
+
+}
+
+.browser button{
+    padding: 1.2vw 1.2vw;
+    border-radius: 50px !important;
+    border: 1.2px solid black;
+    background-color: transparent;
+    font-weight: 600;
+}
+
+.browser button:hover{
+    cursor: pointer;
+    background-color: #cccccc;
+}
+
+.designer{
+    height: 60vh;
+    width: 100%;
+    background-color: #ffda79;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.designer h1{
+    font-size: 4vw;
+    font-weight: 500;
+    padding-bottom: 2vw;
+
+}
+
+.designer p{
+    text-align: center;
+    font-size: 1.5vw;
+    line-height: 2.2vw;
+    font-weight: 400;
+    padding-bottom: 1vw;
+}
+
+.butn button{
+    padding: 1vw 1vw;
+    border-radius: 50px;
+    border: 1px solid black;
+
+}
 
 
 
@@ -585,6 +992,66 @@ html,body{
         width: 90%;
         line-height: 10vw;
     }
+
+    .img-container{
+        height: 120vh!important;
+        width: 100% !important;
+        /* background-color: aqua; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-left{
+        width: 100%;
+    }
+     
+    .container-top{
+        width: 95%;
+    }
+    .container-bottom{
+        width: 100% !important;
+        margin-top: 2vw;
+    }
+
+    .container-mid{
+        width: 100% !important;
+        margin-top: 1vw;
+    }
+
+    .container-right{
+        width: 100% !important;
+        margin-top: 1vw;
+    }
+
+    .img-container p{
+        font-size: 4vw;
+    }
+
+    .text{
+        padding-left: 2vw;
+    }
+
+    .team{
+        padding-left: 2vw;
+    }
+
+    .like{
+        padding-left: 3vw;
+    }
+
+    .views{
+        padding-left: 4vw;
+    }
+
+    .browser button{
+        margin-top: 1vw;
+        padding: 4vw 2.5vw !important;
+    }
+    
+
+    
+
+
 
   
 }

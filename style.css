@@ -89,8 +89,8 @@ html,body{
     width: 18%;
     background-color: white;
     position: absolute;
-    top: 11%;
-    left: 25%;
+    top: 10%;
+    left: 24.8%;
     border-radius: 10px;
     padding: 1vw;
     color: grey;
@@ -374,7 +374,7 @@ html,body{
 }
 
 .container-bottom{
-    height: 17%;
+    height: 16%;
     width: 100%;
     /* background-color: red; */
     display: flex;
@@ -821,7 +821,7 @@ html,body{
 }
 
 .designer{
-    height: 60vh;
+    height: 75vh;
     width: 100%;
     background-color: #ffda79;
     display: flex;
@@ -834,24 +834,239 @@ html,body{
 .designer h1{
     font-size: 4vw;
     font-weight: 500;
-    padding-bottom: 2vw;
+    padding-bottom: 1.6vw;
 
 }
 
 .designer p{
     text-align: center;
-    font-size: 1.5vw;
-    line-height: 2.2vw;
+    font-size: 1.6vw;
+    line-height: 2.4vw;
     font-weight: 400;
     padding-bottom: 1vw;
 }
-
+.butn{
+    /* background-color: violet; */
+    width: 100%;
+    height: fit-content;
+   padding-left: 34vw;
+   
+    
+}
 .butn button{
-    padding: 1vw 1vw;
+  padding: 3vh;
     border-radius: 50px;
+    width: 20%;
     border: 1px solid black;
+    margin: 0 1vw;
+    
+}
+
+.butn button:hover{
+    cursor: pointer;
+    background-color: #cccccc;
+}
+
+.words{
+   height: 5vw;
+    background-color: blue;
+}
+
+.words p{
+    font-size: 1.3vw;
+}
+
+.words a{
+    color: #1f1d3e;
+}
+
+.last-slide{
+    height: 35vh;
+    width: 100%;
+    /* background-color: lightgreen; */
+    margin-top: 1.5vw;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.last-card{
+    height: 100%;
+    width: 15%;
+    /* background-color: lightpink; */
+    
+}
+
+.last-up-card{
+    height: 85%;
+    width: 100%;
+    /* background-color: plum; */
+    border-radius: 8px;
+}
+
+.last-down-card{
+    height: 15%;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.last-down-card p{
+    padding-top: .3vw;
+    font-size: 1.2vw;
+}
+
+.content{
+    height: 20vh;
+    width: 100%;
+    background-color: pink;
+}
+
+.up1{
+    background-image: url(https://cdn.dribbble.com/userupload/15612968/file/original-a21142e6f2304ad9cf384c2b564a921a.jpg?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up2{
+    background-image: url(https://cdn.dribbble.com/userupload/15654170/file/original-2d5f19ba7f07a16c2540cd69d0a3f359.png?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up3{
+    background-image: url(https://cdn.dribbble.com/userupload/15675758/file/original-1d4e70ff6841cb39ef37b0734234e0b6.png?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up4{
+    background-image: url(https://cdn.dribbble.com/userupload/15513358/file/original-e464997417cf6d491eb6c4f633293e22.png?crop=0x0-2401x1801&format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up5{
+    background-image: url(https://cdn.dribbble.com/userupload/15675758/file/original-1d4e70ff6841cb39ef37b0734234e0b6.png?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up6{
+    background-image: url(https://cdn.dribbble.com/userupload/15513358/file/original-e464997417cf6d491eb6c4f633293e22.png?crop=0x0-2401x1801&format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up7{
+    background-image: url(https://cdn.dribbble.com/userupload/15743138/file/still-e883d6e33a1bfdf9de7c492985d90866.png?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.up8{
+    background-image: url(https://cdn.dribbble.com/userupload/15654170/file/original-2d5f19ba7f07a16c2540cd69d0a3f359.png?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+.up9{
+    background-image: url(https://cdn.dribbble.com/userupload/15719732/file/original-f1eeffa89939d39eed1b01d202b89b35.png?format=webp&resize=320x240&vertical=center);
+    background-position: center;
+    background-size: cover;
+}
+
+.dribble-content{
+     height: 10vh;
+     width: 100%;
+     /* background-color: fuchsia; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 2.5vw;
+}
+
+.main-div{
+    /* height: 100%; */
+    width: 10%;
+    /* background-color: red; */
+    margin-right: 5.5vw;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.main-div h1{
+        font-family: "Allura", cursive;
+        cursor: pointer;
+}
+
+.dribble-content a{
+    padding-right: 1.5vw;
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: black;
+}
+
+
+.Support{
+    margin-right: 5vw;
+    /* background-color: darkmagenta; */
+}
+
+.social-media{
+    margin-right: 8vw !important;
+    /* background-color: darkblue; */
+}
+
+.social-media i{
+    margin-right: 1vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.footer{
+    height: 12vh;
+    width: 100%;
+    /* background-color: lawngreen; */
+    display: flex;
+    padding-top: 2vw;
+    color: #cccccc;
+    padding: 2vw 2vw 0 2vw;
 
 }
+
+.footer a{
+    text-decoration: none;
+    font-size: 1.1vw;
+    padding-right: 1vw;
+    color: #cccccc;
+}
+
+.start-div{
+    width: 50%; 
+    /* background-color: yellow; */
+ }
+ 
+
+.end-div{
+   width: 50%; 
+   /* background-color: red; */
+   display: flex;
+   justify-content: flex-end;
+}
+ .words{
+    width: 100%;
+    /* background-color: yellow; */
+    height: 20vh;
+    text-align: center;
+ } 
+
+ 
+
 
 
 
@@ -1045,8 +1260,74 @@ html,body{
 
     .browser button{
         margin-top: 1vw;
+        margin-bottom: 1vw;
         padding: 4vw 2.5vw !important;
     }
+
+    .designer h1{
+        font-size: 10vw;
+        font-weight: 300;
+    }
+
+    .designer p{
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        width: 80%;
+        text-align: center;
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+
+    .butn{
+        /* display: flex; */
+        flex-direction: column;
+        padding-right: 4vw;
+
+    }
+
+    .butn button,button{
+      
+      width: 70%;
+       height: fit-content;
+       margin: 1vw 0;
+       padding: 6vw;
+      
+     
+    }
+    .words {
+
+    }
+
+    .words p{
+        /* display: flex;
+        flex-direction: row; */
+        text-align: center;
+        
+    }
+    .words p{
+     
+    }
+
+    .last-slide{
+        margin-top: 5vw;
+    }
+
+    .wrapp{
+        width: 80%;
+    }
+
+    .last-down-card p{
+        font-size: 4vw;
+    }
+
+
+    .last-down-card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
     
 
     

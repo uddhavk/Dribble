@@ -55,6 +55,8 @@ let swiper = new Swiper(".mySwiper", {
 
 
 
+
+
 // let swiper = new Swiper(".mySwiper", {
 //     slidesPerView: 8,
 //     spaceBetween: 20,
@@ -85,16 +87,23 @@ let swiper = new Swiper(".mySwiper", {
 let uddhav = new Swiper(".mySwiper2", {
     slidesPerView: 4,
     spaceBetween: 20,
-    // loop: true,
-    // autoplay: true,
+    loop: true,
+    autoplay: true,
+    mousewheel: true,
+
+    autoplay: {
+        delay: 0, // No delay between transitions
+        disableOnInteraction: true // Swiper will continue autoplay after user interactions
+    },
+    speed: 20000, // Duration of transition in milliseconds
     mousewheel: true,
 
     breakpoints: {
         320: {
-            slidesPerView: 1,
+            slidesPerView: 2,
         },
         375: {
-            slidesPerView: 1,
+            slidesPerView: 2,
         },
         425: {
             slidesPerView: 1,
@@ -103,10 +112,11 @@ let uddhav = new Swiper(".mySwiper2", {
             slidesPerView:2,
         },
         1024: {
-            slidesPerView:4,
+            slidesPerView:5.5,
         }
         
     }
 })
+
 
 

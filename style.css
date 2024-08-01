@@ -824,6 +824,7 @@ html,body{
     height: 75vh;
     width: 100%;
     background-color: #ffda79;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -834,16 +835,16 @@ html,body{
 .designer h1{
     font-size: 4vw;
     font-weight: 500;
-    padding-bottom: 1.6vw;
+    padding-bottom: 1.7vw;
 
 }
 
 .designer p{
     text-align: center;
     font-size: 1.6vw;
-    line-height: 2.4vw;
+    line-height: 2.5vw;
     font-weight: 400;
-    padding-bottom: 1vw;
+    padding-bottom: 2vw;
 }
 .butn{
     /* background-color: violet; */
@@ -864,15 +865,20 @@ html,body{
 
 .butn button:hover{
     cursor: pointer;
-    background-color: #cccccc;
+    background-color: #cfc4c4;
 }
 
 .words{
-   height: 5vw;
-    background-color: blue;
+   height: 4vw;
+    /* background-color: rgb(0, 255, 183); */
+    position: absolute;
+    /* width: 100%; */
+    top: 673.9%;
+    right: 40%;
 }
 
 .words p{
+    text-align: center;
     font-size: 1.3vw;
 }
 
@@ -1043,7 +1049,7 @@ html,body{
     text-decoration: none;
     font-size: 1.1vw;
     padding-right: 1vw;
-    color: #cccccc;
+    color: #383650;
 }
 
 .start-div{
@@ -1058,14 +1064,7 @@ html,body{
    display: flex;
    justify-content: flex-end;
 }
- .words{
-    width: 100%;
-    /* background-color: yellow; */
-    height: 20vh;
-    text-align: center;
- } 
 
- 
 
 
 
@@ -1261,7 +1260,11 @@ html,body{
     .browser button{
         margin-top: 1vw;
         margin-bottom: 1vw;
-        padding: 4vw 2.5vw !important;
+        padding: 4vw 2vw !important;
+    }
+
+    .designer{
+        height: 60vh;
     }
 
     .designer h1{
@@ -1290,24 +1293,16 @@ html,body{
       width: 70%;
        height: fit-content;
        margin: 1vw 0;
-       padding: 6vw;
+       padding: 4vw 3.2vw;
       
      
     }
     .words {
-
-    }
-
-    .words p{
-        /* display: flex;
-        flex-direction: row; */
-        text-align: center;
+     display: none;
         
     }
-    .words p{
-     
-    }
 
+    
     .last-slide{
         margin-top: 5vw;
     }
@@ -1318,6 +1313,7 @@ html,body{
 
     .last-down-card p{
         font-size: 4vw;
+        font-weight: 500;
     }
 
 
@@ -1326,6 +1322,83 @@ html,body{
         align-items: center;
         justify-content: center;
     }
+
+    .dribble-content{
+        display: flex;
+        flex-direction: column;
+        /* background-color: blueviolet; */
+        height: 15vh;
+    }
+
+    .dribble-content a{
+        font-size: 3.5vw;
+        font-weight: 550;
+    }
+
+
+    .hire{
+        width: 85%;
+        /* background-color: darkorange; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .adv{
+        margin-top: 2vw;
+        width: 85%;
+        /* background-color: darkorange; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-media{
+        width: 28%;
+        /* background-color: darkorange; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vw;
+        justify-content: space-between;
+
+    }
+    
+    .social-media i{
+        font-size: 5vw;
+    }
+   
+
+    .footer{
+        margin-top: 2vw;
+        height: 9vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer a,i{
+        font-size: 3.5vw;
+        font-weight: 400;
+        color: #1f1d3e;
+    }
+
+    .start-div{
+        /* background-color: rgb(103, 98, 98); */
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .end-div{
+        margin-top: 2vw;
+      /* background-color: cornflowerblue; */
+      width: 95%;
+      display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
     
 
     
